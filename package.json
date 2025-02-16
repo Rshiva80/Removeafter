@@ -1,0 +1,17 @@
+{
+  "name": "fidtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testrun" : "npx cypress run",
+    "run:spec": "cypress run --spec 'cypress/e2e/spec.cy.js' --browser chrome"
+   
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.0.3"
+  }
+}
