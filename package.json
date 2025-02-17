@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "testrun" : "npx cypress run",
-    "run:spec": "cypress run --spec 'cypress/e2e/spec.cy.js' --browser chrome"
-   
+    "run:spec": "cypress run --spec 'cypress/e2e/spec.cy.js' --browser chrome",
+    "run:check" : "npx cypress run --spec \"cypress/e2e/checkbox.cy.js\""
+  
   },
   "author": "",
   "license": "ISC",
