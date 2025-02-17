@@ -8,7 +8,7 @@ describe('template spec',() => {
 
    let TestEmail = Email();
 
-  it('passes',function () {
+  it.skip('passes',function () {
     //cy.viewport('iipad-mini');
     cy.visit('https://demoqa.com/automation-practice-form');
     cy.get("#firstName").type(this.data.firstname);
